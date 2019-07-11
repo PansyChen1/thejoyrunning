@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: #333;
+    padding: 15px;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+.weather {
+    display: flex;
+    justify-content: space-between;
+}
+.weather-text{
+    margin-left: 8px;
+    color: #eee;
+}
+.head img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+    /*align-self: center;*/
+}
+.run {
+    padding: 0 0 15px;
+    width: 100%;
+    height: 120px;
+}
+.run-number {
+    display: flex;
+    justify-content: space-between;
+    color: #ccc;
+
+}
+.run-number-left {
+    display: flex;
+    flex-direction: column;
+}
+.run-number img {
+    width:80px;
+    height: 50%;
+    align-self: center;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+.sum-run {
+    margin: 10px 0 40px;
+}
+.sum-run .red{
+    width: 10px;
+    height: 10px;
+    background: #f44;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.week-run .blue{
+    width: 10px;
+    height: 10px;
+    background: #12f;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.progress-bar{
+    margin: 8px;
+}
+.progress-bar span{
+    /*width: 3px;*/
+    height: 150px;
+    border-radius: 6px;
+    /*background: #000;*/
+    border: 3px solid #000;
+    margin: 10px;
+}
+.run-number-left p{
+    padding-top: 8px;
+    margin-left: 20px;
+}
+.run-number-left p span{
+    font-size: 24px;
+    color: #fff;
+}
+.layout-panel{
+    margin: 20px 0;
+    padding: 25px 15px;
+    background-color: #444;
+    border-radius: 8px;
+}
+.layout-panel p{
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #ddd;
+}
+.layout-panel span{
+    color: #bbb;
+}
+.suggest-activity{
+    color: #ddd;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.suggest-activity img{
+    margin-top: 15px;
+    border-radius: 8px;
+    height: 100px;
+    width: 50%;
+}
+.bottom-bar{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    color: #ccc;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #333;
+    line-height: 50px;
+}
+.bottom-bar li{
+    list-style: none;
+    float: left;
+    padding: 0 5px;
+    width: 65px;
+    text-align: center;
+}
+.bottom-bar li img{
+    width: 15px;
+    height: 15px;
+}
+
