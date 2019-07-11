@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: #222;
+    padding: 15px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.center-tip span{
+    float: right;
+    padding: 0 3px;
+}
+.center-tip button{
+    background: #333;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+.tip{
+    float: right;
+    width: 25px;
+    height: 25px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.nickname{
+    width: 82%;
+}
+.layout{
+    /*background-color: #333;*/
+    padding: 10px 0;
+}
+.panel-style{
+    background: #333;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.sum-panel img{
+    width: 35px;
+    height: 35px;
+    align-self: center;
+}
+.shoe-panel img{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
