@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Metropolis;
+    color: #ddd;
 }
 .bg{
     background-color: #222;
@@ -20,6 +21,8 @@
     background: #333;
     border: 1px solid #333;
     border-radius: 4px;
+    font-size: 8px;
+    padding: 2px;
 }
 .tip{
     float: right;
@@ -39,6 +42,10 @@
     padding: 10px 0;
     margin-bottom: 100px;
 }
+.dark-font{
+    color: #bbb;
+    font-size: 8px;
+}
 .panel-style{
     background: #333;
     padding: 12px;
@@ -56,6 +63,18 @@
     width: 30px;
     height: 30px;
     align-self: center;
+}
+.shoe-panel-left p{
+    padding-bottom: 5px;
+}
+.shoe-panel-left span {
+    font-size: 8px;
+    color: #bbb;
+}
+.name-panel p{
+    color: #bbb;
+    display: inline;
+    font-size: 8px;
 }
 .bottom-bar{
     position: fixed;
