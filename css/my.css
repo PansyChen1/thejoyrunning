@@ -6,12 +6,12 @@
 }
 .bg{
     background-color: #222;
-    padding: 15px;
+    padding: 0 15px 15px 15px;
 }
 .head{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin: 80px 0 20px 0;
 }
 .center-tip span{
     float: right;
@@ -24,8 +24,17 @@
     font-size: 8px;
     padding: 2px;
 }
-.tip{
-    float: right;
+.img-fixed{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    background: #222;
+    margin-bottom: 20px;
+    padding-left: 82%;
+}
+.img-fixed img{
     width: 25px;
     height: 25px;
 }
@@ -105,4 +114,14 @@
 .bottom-bar li img{
     width: 15px;
     height: 15px;
+}
+.choose-panel p{
+    margin: 25px 0;
+}
+.choose-panel p span{
+    float: right;
+    width: 15px;
+}
+.line{
+    border: 0.5px solid #444;
 }

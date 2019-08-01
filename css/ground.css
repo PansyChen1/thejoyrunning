@@ -2,16 +2,21 @@
     margin: 0;
     padding: 0;
     font-family: Metropolis;
-    color: #ddd;
+    color: #fff;
 }
 .bg{
-    background-color: #222;
+    background: #222;
     padding: 15px;
 }
 .head{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 0.5rem;
+}
+.head img{
+    border-radius: 100%;
 }
 .layout{
     /*background-color: #333;*/
@@ -27,6 +32,7 @@
     height: 50px;
     background: #222;
     line-height: 50px;
+    font-size: 0.4rem;
 }
 .bottom-bar li{
     list-style: none;
@@ -43,4 +49,163 @@
 .bottom-bar li img{
     width: 15px;
     height: 15px;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.4rem;
+}
+.panel-layout{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+}
+.item-panel{
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    width: 4.2rem;
+}
+.item-panel h3{
+    font-size: 0.4rem;
+    padding-bottom:0.1rem;
+}
+.item-panel p{
+    font-size: 0.1rem;
+}
+.activity{
+    margin-right: 0.4rem;
+    background: linear-gradient(0deg, #FA9, #FFC700), linear-gradient(341.3deg, #7B45C2 8.6%, #5C2B9C 49.99%, #491C85 100%);
+}
+.online{
+    background: linear-gradient(0deg, #4EF, #4EC616), linear-gradient(341.3deg, #7B45C2 8.6%, #5C2B9C 49.99%, #491C85 100%);
+}
+.contest{
+    margin-right: 0.4rem;
+    background: linear-gradient(0deg, #E4F, #ED3A4F), linear-gradient(341.3deg, #7B45C2 8.6%, #5C2B9C 49.99%, #491C85 100%);
+}
+.appointment{
+    background: linear-gradient(0deg, #DF3, #E32), linear-gradient(341.3deg, #7B4 8.6%, #5CC 49.99%, #491 100%);
+}
+.choose-bar{
+    margin: 0.6rem 0;
+    font-size: 0.5rem;
+    height: 30px;
+    line-height: 30px;
+}
+.choose-bar li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.common-panel{
+    background: #333;
+    border-radius: 0.15rem;
+    padding: 0.8rem 0.3rem;
+    margin: 0.2rem 0 0.8rem 0;
+    position: relative;
+}
+.latest h2{
+    font-size: 0.5rem;
+}
+.latest-panel{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.latest-panel h2{
+    font-size: 0.4rem;
+    padding: 0.2rem 0;
+}
+.latest-panel h3{
+    font-size: 0.2rem;
+    color: #aaa;
+}
+.latest-panel i{
+    border: 1px solid red;
+    background: red;
+    font-size: 0.3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0.15rem 0 0.15rem 0;
+    width: 2.2rem;
+    text-align: center;
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+.scroll li{
+    float: left;
+}
+.scroll::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.challenge-title h2{
+    font-size: 0.5rem;
+}
+.challenge-panel{
+    width: 8rem;
+}
+.challenge-panel h3{
+    padding-top: 3rem;
+    font-size: 0.4rem;
+}
+.challenge-panel h4{
+    font-size: 0.3rem;
+    color: #aaa;
+}
+.challenge-panel img{
+    width: 8rem;
+    height: 3.3rem;
+    border-radius: 0.2rem 0.2rem 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.prize h2{
+    font-size: 0.5rem;
+}
+.prize-panel{
+    font-size: 0.3rem;
+}
+.prize-panel img{
+    width: 40px;
+    height: 40px;
+    border-radius: 0.2rem;
+}
+.prize-panel li{
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prize-panel h3{
+    width: 4.5rem;
+}
+.prize-pool{
+    width: 2rem;
+    text-align: center;
+}
+.prize-pool p{
+    color:#FFC700;
+}
+.name-tip p{
+    font-size: 0.3rem;
+    background: #444;
+    color: #aaa;
+    width: 2rem;
+    text-align: center;
+    margin-top: 0.1rem;
+    border-radius: 0.1rem;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.3rem;
+    align-items: center;
+}
+.more span{
+    color: #aaa;
 }

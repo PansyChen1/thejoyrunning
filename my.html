@@ -15,7 +15,9 @@
 </head>
 
 <body class="bg">
-<img class="tip" src="image/icon_person.jpg" alt=""/>
+<div class="img-fixed">
+  <img src="image/icon_person.jpg" alt=""/>
+</div>
 <div class="head">
   <img class="avatar" src="image/icon_person.jpg" alt=""/>
   <div class="nickname">
@@ -59,8 +61,14 @@
     <p>可用于 线下赛事/线上马/跑团活动等</p>
   </div>
 
-  <div class="">
-
+  <div class="choose-panel">
+    <p>设备绑定<span> > </span></p>
+    <p>品牌会员<span> > </span></p>
+    <p>钱包<span> > </span></p>
+    <p>悦跑日历<span> > </span></p>
+    <div class="line"></div>
+    <p>联系客服<span> > </span></p>
+    <p>设置<span> > </span></p>
   </div>
 </div>
 <div class="bottom">
@@ -74,4 +82,11 @@
 </div>
 </body>
 <script src="js/zepto.min.js"></script>
+<script>
+  ;Zepto(function ($) {
+    $(".head").on("click", function () {
+      alert("lll")
+    })
+  })
+</script>
 </html>
