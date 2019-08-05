@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84ac0059-1b36-4f8d-a35d-a1aec82b04e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/scan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/ground.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/touch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/weather.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/weather.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/community.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/community.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ground.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ground.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/my.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ground.html" beforeDir="false" afterPath="$PROJECT_DIR$/ground.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.html" beforeDir="false" afterPath="$PROJECT_DIR$/my.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,17 +17,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/community.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-520">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="-788">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/community.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+            <state relative-caret-position="278">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -50,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+            <state relative-caret-position="-358">
+              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -131,7 +122,6 @@
         <option value="$PROJECT_DIR$/css/my.html" />
         <option value="$PROJECT_DIR$/css/css.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/community.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/canvas.html" />
         <option value="$PROJECT_DIR$/css/canvas.css" />
@@ -150,9 +140,10 @@
         <option value="$PROJECT_DIR$/ground.html" />
         <option value="$PROJECT_DIR$/css/ground.css" />
         <option value="$PROJECT_DIR$/css/my.css" />
-        <option value="$PROJECT_DIR$/css/community.css" />
         <option value="$PROJECT_DIR$/detail.html" />
         <option value="$PROJECT_DIR$/my.html" />
+        <option value="$PROJECT_DIR$/community.html" />
+        <option value="$PROJECT_DIR$/css/community.css" />
       </list>
     </option>
   </component>
@@ -200,7 +191,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564649737266" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564987237262" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -251,26 +242,25 @@
       <workItem from="1563504459243" duration="3757000" />
       <workItem from="1563865810867" duration="46000" />
       <workItem from="1563878396671" duration="5133000" />
-      <workItem from="1564626060736" duration="14759000" />
+      <workItem from="1564626060736" duration="20165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81541000" />
+    <option name="totallyTimeSpent" value="86947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25107297" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25107297" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.29244113" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.28004956" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -427,20 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/community.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/community.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -450,8 +426,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+        <state relative-caret-position="-358">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-788">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/community.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
         </state>
       </provider>
     </entry>
