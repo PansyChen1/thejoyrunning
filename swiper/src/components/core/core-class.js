@@ -6,18 +6,18 @@ import Browser from '../../utils/browser';
 
 import SwiperClass from '../../utils/class';
 
-import update from './update/index';
-import translate from './translate/index';
-import transition from './transition/index';
-import slide from './slide/index';
-import loop from './loop/index';
-import grabCursor from './grab-cursor/index';
-import manipulation from './manipulation/index';
-import events from './events/index';
-import breakpoints from './breakpoints/index';
-import classes from './classes/index';
-import images from './images/index';
-import checkOverflow from './check-overflow/index';
+import update from './update';
+import translate from './translate';
+import transition from './transition';
+import slide from './slide';
+import loop from './loop';
+import grabCursor from './grab-cursor';
+import manipulation from './manipulation';
+import events from './events';
+import breakpoints from './breakpoints';
+import classes from './classes';
+import images from './images';
+import checkOverflow from './check-overflow';
 
 import defaults from './defaults';
 

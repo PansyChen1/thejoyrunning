@@ -17,21 +17,31 @@
     padding: 10px 0;
     margin-bottom: 100px;
 }
-.banner-image{
-    width: 1000%;
-    transform: translateX(-10%);
-    transition: all .3s;
-}
-.banner-image li{
-    width: 10%;
-}
-.banner-image li a{
-    display: block;
+.swiper-container{
     width: 100%;
+    height: 120px;
 }
-.banner-image li a img{
-    width: 100%;
-    display: block;
+.swiper-wrapper{
+    margin: 20px 0;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
 .ground{
     color: #ddd;
