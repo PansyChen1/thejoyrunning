@@ -57,6 +57,7 @@
   </script>
   <link rel="stylesheet" type="text/css" href="css/common.css">
   <link rel="stylesheet" type="text/css" href="css/ground.css">
+  <link rel="stylesheet" href="../swiper/dist/css/swiper.min.css">
 </head>
 
 <body class="bg">
@@ -117,25 +118,25 @@
       <h2>一起来挑战</h2>
       <span>更多挑战 > </span>
     </div>
-    <ul class="scroll">
-      <li class="challenge-panel common-panel">
-        <img src="image/icon_title.jpg"/>
-        <h3>8月挑战 | 31天31公里</h3>
-        <h4>43338人已参与挑战</h4>
-      </li>
-
-      <li class="challenge-panel common-panel">
-        <img src="image/icon_title.jpg"/>
-        <h3>男人节 | adiCLUB专属第89期</h3>
-        <h4>43190人已参与挑战</h4>
-      </li>
-
-      <li class="challenge-panel common-panel">
-        <img src="image/icon_title.jpg"/>
-        <h3>99周俱乐部坚持挑战·第4期</h3>
-        <h4>23370人已参与挑战</h4>
-      </li>
-    </ul>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide common-panel">
+          <img src="image/icon_title.jpg" alt=""/>
+          <h3>8月挑战 | 31天31公里</h3>
+          <h4>43338人已参与挑战</h4>
+        </div>
+        <div class="swiper-slide common-panel">
+          <img src="image/icon_title.jpg" alt=""/>
+          <h3>男人节 | adiCLUB专属第89期</h3>
+          <h4>43190人已参与挑战</h4>
+        </div>
+        <div class="swiper-slide common-panel">
+          <img src="image/icon_title.jpg" alt=""/>
+          <h3>99周俱乐部坚持挑战·第4期</h3>
+          <h4>23370人已参与挑战</h4>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="prize">
@@ -213,6 +214,17 @@
   </ul>
 </div>
 </body>
+<script src="../swiper/dist/js/swiper.min.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 'auto',
+    spaceBetween: 30,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
 <script src="js/zepto.min.js"></script>
 <script src="js/ground.js"></script>
 <script src="js/touch.js"></script>
